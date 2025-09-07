@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Information Form</title>
+  <link rel="stylesheet"  href="style.css">
+  <script src="script.js"></script>
+
+
+</head>
+<body>
+  <h1>Student Information Form</h1>
+  <form name="myForm" onsubmit="return validateForm()">
+    <label for="Name">Name:
+      <input type="text" name="Name" id="Name" />
+    </label>
+
+    <label for="Password">Password:
+      <input type="password" name="Password" id="Password" maxlength="15" />
+    </label>
+
+    <label for="Address">Address:
+      <textarea name="Address" id="Address" rows="4" cols="30"></textarea>
+    </label>
+
+    <label>Gender:
+      <input type="radio" name="Gender" value="Male" /> Male
+      <input type="radio" name="Gender" value="Female" /> Female
+    </label>
+
+    <label>
+      Student:
+      <input type="checkbox" name="Student" checked />
+    </label>
+
+    <label for="Email">Email ID:
+      <input type="text" name="Email" id="Email" />
+    </label>
+
+    <label for="Mobile">Mobile Number:
+      <input type="text" name="Mobile" id="Mobile" placeholder="##########" />
+    </label>
+
+    <input type="submit" value="Submit" class="submit-btn" />
+  </form>
+</body>
+</html>

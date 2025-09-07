@@ -1,0 +1,74 @@
+/* Base styling */
+body {
+  background-color: pink;
+  font-family: Arial, sans-serif;
+  padding: 30px;
+  margin: 0;
+}
+
+/* Heading */
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Form container */
+form {
+  background-color: #fff;
+  padding: 25px;
+  max-width: 400px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Labels and inputs */
+label {
+  display: block;
+  margin-top: 15px;
+  font-size: 1.1em;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Radio and checkbox */
+input[type="radio"],
+input[type="checkbox"] {
+  width: auto;
+  margin-right: 8px;
+}
+
+/* Submit button */
+.submit-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1em;
+  background-color: #ff69b4;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #e055a1;
+}
+
+/* Focus effect */
+input:focus,
+textarea:focus {
+  border-color: #ff69b4;
+  outline: none;
+  box-shadow: 0 0 5px rgba(255,105,180,0.5);
+}
